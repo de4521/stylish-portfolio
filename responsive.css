@@ -1,0 +1,80 @@
+@media (max-width: 768px){
+    .left, .right, .main-div{
+        text-align: center;
+        margin: 5px;
+    }
+    #contact h2{
+        font-size: 2em;
+    }
+    #contact p{
+        font-size: 1em;
+        padding: 0 10px;
+    }
+    
+}
+@media (max-width: 480px){
+    #experience h2, #contact h2{
+        font-size: 1.5em;
+    }
+    #experience p, #contact p{
+        font-size: 0.9em;
+        padding: 0 5px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #experience h2, #contact h2{
+        font-size: 2em;
+    }
+    #experience p, #contact p{
+        font-size: 1em;
+        padding: 0 15px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+    #experience h2, #contact h2{
+        font-size: 2.2em;
+    }
+    #experience p, #contact p{
+        font-size: 1.1em;
+        padding: 0 20px;
+    }
+}
+@media (min-width: 1201px){
+    #experience h2, #contact h2{
+        font-size: 2.5em;
+    }
+    #experience p, #contact p{
+        font-size: 1.2em;
+        padding: 0 20px;
+    }
+
+    
+}
+@media (max-width: 600px) {
+    header nav {
+        display: none;
+        flex-direction: column;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav ul li {
+        margin: 10px 0;
+    }
+    header nav.active {
+        display: flex;
+    }
+    .fa-bars, .fa-times {
+        display: block;
+        color: #fff;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+}
+
